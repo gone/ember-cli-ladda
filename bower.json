@@ -14,6 +14,7 @@
     "ember-qunit-notifications": "0.0.4",
     "qunit": "~1.15.0",
     "ladda": "~0.9.4",
-    "spin.js": "~2.0.1"
+    "spin.js": "~2.0.1",
+    "ember-cli-ladda-shim": "~0.1.0"
   }
 }

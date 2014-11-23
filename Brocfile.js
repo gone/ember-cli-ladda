@@ -20,5 +20,9 @@ app.import('bower_components/ladda/dist/spin.min.js');
 app.import('bower_components/ladda/dist/ladda.min.css');
 app.import('bower_components/ladda/dist/ladda.min.js');
 app.import('bower_components/ladda/dist/ladda.jquery.min.js');
-
+app.import(app.bowerDirectory + '/ember-cli-ladda-shim/ladda-shim.js', {
+  exports: {
+    ladda: ['default']
+  }
+});
 module.exports = app.toTree();
