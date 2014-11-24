@@ -1,5 +1,3 @@
-// app/components/x-button.js
-
 import Ember from 'ember';
 import LaddaButton from 'ember-cli-ladda/components/ladda-button';
 
